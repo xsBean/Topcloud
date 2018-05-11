@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+body {margin: 0px;}
+
+.banner {
+  background-color: #f1f1f1;
+  width: 100%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  height: 80px;
+}
+
+.banner a {
+  background-image: url("Images/logo.png");
+  background-size: contain;
+  width: 101px;
+  height: 75px;
+  margin-left: 25px;
+  display: block;
+}
+
+/*Holds a brief text on the page*/
+.main-content h1 {
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 22px;
+  color: #444;
+  width: 350px;
+}
+
+.error-msg {
+  display: none;
+}
+
+.error-msg p {
+  color: #dd4b39;
+  font-size: 14px;
+}
+
+.radio-option {
+  font-family: 'Roboto',sans-serif;
+  font-size: 14px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+
+.radio-option label {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.selected-radio-dialog {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.selected-radio-dialog p {
+  font-size: 12px;
+  color: #4c4c4c;
+}
+
+.selected-radio-dialog label {
+  display: inline-block;
+  font-size: 16px;
+  color: #4c4c4c;
+}
+
+.selected-radio-dialog input {
+  display: inline-block;
+  width: 100%;
+}
+
+.unselected-radio-dialog {
+  display: none;
+}
+
+.unselected-radio-dialog label {
+  display: none;
+}
+
+.unselected-radio-dialog p {
+  display: none;
+}
+
+.unselected-radio-dialog input {
+  display: none;
+}
+
+.submit-button {
+  margin-top: 10px;
+  border-radius: 2px;
+  height: 30px;
+  width: 70px;
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color: #4d90fe;
+  border-radius: 2px;
+  -webkit-appearance:none;
+}
+
+.submit-button:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+/*Controls the scaling of the site*/
+@media (max-width: 299px) {
+  .main-content {
+    width: 250px;
+    margin-left: 25px;
+  }
+}
+
+@media (min-width: 300px) {
+  .main-content {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

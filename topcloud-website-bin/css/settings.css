@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+
+body {margin: 0;}
+
+/*Header*/
+.hr {
+  display: inline-block;
+  width: 100%;
+  height: 80px;
+  background-color: #F7F7F7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.hr .logo {
+  float: left;
+  display: inline-block;
+  background-image: url("Images/logo.png");
+  background-size: contain;
+  width: 101px;
+  height: 75px;
+  margin-left: 25px;
+}
+
+.hr .return-button {
+  margin: 15 30 15 0;
+  width: 70px;
+  height: 50px;
+  display: inline-block;
+  float: right;
+  background-color: #3284FF;
+  border-radius: 3px;
+  align-content: center;
+}
+
+.hr .return-button:hover {
+  background-color: #235cb2;
+}
+
+.return-button img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+}
+
+/*Begins the main content*/
+.main-content {
+  width: 100%;
+  height: 500px;
+}
+
+.password-container {
+  display: table;
+  background-color: #F7F7F7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 290px;
+  padding: 30px;
+}
+
+.password-container h1 {
+  font-size: 28px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #4c4c4c;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.password-input {
+  margin-top: 20px;
+  width: 100%;
+  display: block;
+}
+
+.password-input label {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #4c4c4c;
+  width: 100%;
+  height: auto;
+}
+
+.password-input input {
+  border: 1px solid #d9d9d9;
+  display: block;
+  width: 100%;
+  height: 26px;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.password-input input:hover {
+  border: 1px solid #b9b9b9;
+}
+
+.errormsg-off {
+  display: block;
+  width: 100%;
+  text-align: right;
+  height: 30px;
+}
+
+.errormsg-off {
+  display: none;
+}
+
+.submit-button {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.submit-button input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #26B14C;
+  border-style: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  width: auto;
+  height: auto;
+  padding: 5 10 5 10;
+}
+
+.submit-button input:hover {
+  background-color: #1e8d3c
+}

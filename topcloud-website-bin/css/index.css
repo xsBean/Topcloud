@@ -1,0 +1,331 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo-banner {
+  width: 100%;
+  height: 160px;
+}
+
+.logo-banner span{
+  background-image: url("Images/logo.png");
+  background-size: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 215.57px;
+  height: 160px;
+}
+
+/*Holds the headers*/
+.top-container {
+  font-family: 'Open Sans', arial;
+  margin-left: auto;
+  margin-right: auto;
+  width: 740px;
+  height:
+}
+
+.top-container h1 {
+  font-family: 'Open Sans', arial;
+  color: #555;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.top-container h2 {
+  font-family: 'Open Sans', arial;
+  color: #555;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*Holds the sign in form*/
+.sign-in-card {
+  padding: 40px;
+  padding-bottom: 28px;
+  width: 274px;
+  background-color: #F7F7F7;
+  margin: 0 auto 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.sign-in-card input[type=submit] {
+  background-color: #3284FF;
+  border-radius: 0px;
+  border-style: none;
+  height: 30px;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  -webkit-appearance:none;
+}
+
+.sign-in-card input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 5px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.sign-in-card input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.sign-in-button input{
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  width: 100%;
+  border-style: none;
+  border-radius: 2px;
+  width: 100%;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color: #4d90fe;
+  -webkit-appearance: none; 
+}
+
+.sign-in-button input:hover {
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+}
+
+.sign-in-card a {
+  text-decoration: none;
+  float: right;
+  color: #427fed;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+}
+
+.sign-in-help a:hover {
+  text-decoration: underline;
+}
+
+.sign-in-help {
+  margin-top: 5px;
+  width: 100%;
+  height: 20px;
+}
+
+/*Link below the card*/
+.register {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 100px;
+}
+
+.register a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: #427fed;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
+
+
+/*Not needed; Darshan should remove*/
+.ft {
+  bottom: 0px;
+  height: 20px;
+  width: 100%;
+  position: fixed;
+  margin-bottom: 8px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.ft .skip-sign-in-container {
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+}
+
+.ft .skip-sign-in-container a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: #427fed;
+}
+
+.ft .skip-sign-in-container a:hover {
+  text-decoration: underline;
+}
+
+/*Adjusts the scaling*/
+@media (max-width: 579px) {
+  .logo-banner {
+    width: 100%;
+    height: 100px;
+  }
+
+  .logo-banner span{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 134.74px;
+    height: 100px;
+  }
+
+  .top-container {
+    font-family: 'Open Sans', arial;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+  }
+
+  .top-container h1 {
+    font-family: 'Open Sans', arial;
+    color: #555;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  .top-container h2 {
+    display: none;
+  }
+
+  .sign-in-card {
+    height: 215px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 255px;
+  }
+}
+
+@media (min-width: 580px) {
+  .logo-banner {
+    width: 100%;
+    height: 150px;
+  }
+
+  .logo-banner span{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 192px;
+    height: 142.5px;
+  }
+
+  .top-container {
+    font-family: 'Open Sans', arial;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+  }
+
+  .top-container h1 {
+    font-family: 'Open Sans', arial;
+    color: #555;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .top-container h2 {
+    font-family: 'Open Sans', arial;
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .sign-in-card {
+    height: 244px;
+    width: 274px;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 800px) {
+  .logo-banner {
+    width: 100%;
+    height: 160px;
+  }
+
+  .logo-banner span{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 215.57px;
+    height: 160px;
+  }
+
+  .top-container {
+    font-family: 'Open Sans', arial;
+    margin-left: auto;
+    margin-right: auto;
+    width: 740px;
+    height: 114px;
+  }
+
+  .top-container h1 {
+    font-family: 'Open Sans', arial;
+    color: #555;
+    font-size: 42px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .top-container h2 {
+    font-family: 'Open Sans', arial;
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .sign-in-card {
+    height: 244px;
+    padding-top: 15px;
+    width: 274px;
+  }
+}
